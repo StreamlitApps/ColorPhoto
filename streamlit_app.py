@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 st.markdown("<h1 style='text-align: center; color: black;'>PhotoColor - Beta</h1>", unsafe_allow_html=True)
-st.write("Una implementación de un front end para el API de deepai para colorizar fotos, por Jorge Caballero")
+st.write("Una implementación de un front end para el API de DeepAI para colorizar fotos, por Jorge E. Caballero R.")
 image=st.file_uploader(label= "Selecciona las fotos", accept_multiple_files=True)
 if image:
     if st.button("Colorizar"):
